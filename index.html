@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nikita CV</title>
+		<link rel="stylesheet" href="styles.css">
   </head>
   <body>
 		<div class="container">
@@ -13,40 +14,34 @@
 
         <div class="info-text"></div>
           <h1>Nikita Seleznyov</h1>
-
-          <p>
-            I am <strong>Sportsmen, Videographer,Massage master	</strong> 
-          </p>
+          <p> I am <strong>Sportsmen, Videographer,Massage master	</strong> </p>
           <p>I like to travel, outdoor activities and sports</p>
 
     <h4>My social networks</h4>
-    <ul type="square">
-      <li><a href="https://t.me/RunningAthlet" target="_blank">Telegram</a></li>
-      <li><a href="https://www.instagram.com/seleznyov800m" target="_blank"> Instagram</a></li>
-      <li><a href="https://vk.com/loorts" target="_blank">VK</a></li>
-    </ul>
-    <hr />
-    <h2>My hobbies</h2>
-    <ol type="I">
+      <a href="https://t.me/RunningAthlet" target="_blank">Telegram</a>
+			|
+      <a href="https://www.instagram.com/seleznyov800m" target="_blank"> Instagram</a>
+			|
+      <a href="https://vk.com/loorts" target="_blank">VK</a>
+			<div>
+				<div>
+					<div class="card bg-yellow">
+						<h2>My hobbies</h2>
+    <ol type="list">
       <li>Bloging</li>
       <li>Fast drive</li>
       <li>Computer games</li>
       <li>Sport: Ski cross, Track&Field, Football</li>
     </ol>
-    <hr />
-   
-    <br>
-    
+	</div>
+	<div class="card bg-green">
     <h2>Work experience</h2>
-    <table border="2">
-      <thead>
-        <tr>
+    <table class="table">
+			<tr>
           <th>Employer</th>
           <th>Job title</th>
           <th>Year</th>
         </tr>
-      </thead>
-      <tbody>
         <tr>
           <td>School of massage Rinat Akbarov</td>
           <td>Massage and rehabilitation of sports teams</td>
@@ -62,21 +57,34 @@
           <td>Security officer</td>
           <td>2020-To the present day</td>
         </tr>
-      </tbody>
     </table>
+	</div>
+	<div class="contact">
     <h2>Contact with me</h2>
  <form action="/">
-       <label for="name">Your name:</label>
+    <div class="row">
+    <div class="form-group">
+       <label for="name">Your name:</label>   
        <input type="text"id="name"placeholder="Enter your name...">
+      </div>
 
-       <br>
+ <div class="form-group">
 <label for="email">Your Email</label>
 <input type="email" id="email"placeholder="Enter email...">
+   </div>
+</div>
 
-<input type="password" name="Your password" id="password"placeholder="Enter password">
-<input type="checkbox" name="Check mark" id="check"placeholder="Save in browser">
-<input type="submit" name="" value="Sign up">
+<div class="form-group">
 <label for="text">Your message</label>
-<textarea name="" id="text" cols="15" rows="5"></textarea>
+
+<textarea id="text" cols="15" rows="2"></textarea> 
+</div>
+
+       <input class="btn" type="submit" value="Sign up">
+      </form>
+   </div>
+</div>
+
+<div style="margin-bottom: 500px;;"></div>
  </body>
 </html>
