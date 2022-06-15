@@ -46,14 +46,13 @@ a:visited {
 
 .info {
   display: block;
-  margin-bottom: 20px;
-	margin-top: 10px;
+  margin-bottom: 20px;	
 }
 
 @media (max-width: 750px) {
   .info {
     text-align: center;
-    display: flex;
+    display: block;
   }
 }
 
@@ -110,23 +109,23 @@ a:visited {
 } */
 
 .bg-yellow {
-  background: #ffd60bd3;
+  background: rgba(5, 153, 94, 0.132);
 }
 
 .bg-purple {
-  background: #c999ea;
+  background:#ffe5e55c ;
 }
 
 .bg-red {
-  background: #ffe5e5;
+  background:#8930361f ;
 }
 
 .bg-grey {
-  background: #c6bcbc93;
+  background: #e13ded1b;
 }
 
 .bg-brown {
-	background: #d06310e8;
+	background: #9310d03f;
 }
 .card {
   padding: 15px 20px;
